@@ -1,7 +1,9 @@
 apiVersion: "1"
-id: "mm1"
+id: "mc2"
 description: "Child Bundle"
 version: "1.0"
-parent: "global"
+parent: "main/global"
+allowCapExceptions: true
+availabilityPattern: "mc2"
 items:
   - "items.yaml"
