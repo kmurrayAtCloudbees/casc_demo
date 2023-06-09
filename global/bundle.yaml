@@ -2,6 +2,7 @@ apiVersion: "1"
 id: "global"
 description: "Parent Bundle"
 version: "1.0"
+allowCapExceptions: true
 jcasc:
   - "jenkins.yaml"
 plugins:
