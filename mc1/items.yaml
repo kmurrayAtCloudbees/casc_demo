@@ -1,0 +1,29 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+- kind: backupAndRestore
+  name: backup
+  blockBuildWhenDownstreamBuilding: false
+  blockBuildWhenUpstreamBuilding: false
+  buildersList:
+  - backupBuilder:
+      subjects:
+      - buildRecordSubject: {}
+      - jobConfigurationSubject: {}
+      - systemConfigurationSubject:
+          omitMasterKey: false
+      format:
+        tarGzFormat: {}
+      exclusive: false
+      store:
+        localFileStore:
+          dir: /tmp/backup
+      retentionPolicy:
+        upToNRetentionPolicy:
+          n: 2
+      safeDelaySeconds: 0
+  concurrentBuild: false
+  description: ''
+  disabled: false
+  displayName: backup

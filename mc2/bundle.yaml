@@ -1,0 +1,7 @@
+apiVersion: "1"
+id: "mm1"
+description: "Child Bundle"
+version: "1.0"
+parent: "global"
+items:
+  - "items.yaml"
