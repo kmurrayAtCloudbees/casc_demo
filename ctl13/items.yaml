@@ -2,7 +2,7 @@ removeStrategy:
   rbac: SYNC
   items: NONE
 items:
-- kind: pipeline
+  - kind: pipeline
   name: test01
   concurrentBuild: true
   definition:
