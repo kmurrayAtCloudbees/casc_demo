@@ -1,7 +1,7 @@
 apiVersion: "1"
-id: "global"
+id: "parent-bundle"
 description: "Parent Bundle"
-version: "1.0"
+version: "2.0"
 jcasc:
   - "jenkins.yaml"
 plugins:
