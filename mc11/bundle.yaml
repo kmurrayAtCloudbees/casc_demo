@@ -4,3 +4,5 @@ description: "standalone Bundle"
 version: "1.0"
 plugins:
   - "plugins.yaml"
+jcasc:
+  - "jenkins.yaml"
