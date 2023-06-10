@@ -2,7 +2,7 @@ apiVersion: "1"
 id: "mc1"
 description: "Child Bundle"
 version: "1.0"
-parent: "main/global"
+parent: "global"
 allowCapExceptions: true
 availabilityPattern: "mc1"
 items:
