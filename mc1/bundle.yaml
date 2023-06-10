@@ -4,6 +4,6 @@ description: "Child Bundle"
 version: "1.0"
 parent: "global"
 allowCapExceptions: true
-availabilityPattern: "mc1"
+availabilityPattern: "km1"
 items:
   - "items.yaml"
