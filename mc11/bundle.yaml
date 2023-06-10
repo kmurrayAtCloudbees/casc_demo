@@ -3,8 +3,6 @@ id: "mc11"
 description: "standalone Bundle"
 version: "1.0"
 allowCapExceptions: true
-jcasc:
-  - "jenkins.yaml"
 plugins:
   - "plugins.yaml"
 catalog:
