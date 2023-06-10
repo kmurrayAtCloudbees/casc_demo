@@ -7,5 +7,5 @@ configurations:
     includePlugins:
       manage-permission:
         version: 1.0.1
-        #my-custom-plugin:
-        #url: http://www.example.org/jenkins-plugins/my-custom-plugin-1.2.3.hpi
+      bitbucket:
+        url: https://updates.jenkins.io/download/plugins/bitbucket/223.vd12f2bca5430/bitbucket.hpi
