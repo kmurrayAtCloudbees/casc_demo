@@ -5,9 +5,5 @@ displayName: "My Plugin Catalog"
 configurations:
   - description: "Extensions to CAP"
     includePlugins:
-      bitbucket:
-        url: https://updates.jenkins.io/download/plugins/bitbucket/223.vd12f2bca5430/bitbucket.hpi
       notification:
         url: https://updates.jenkins.io/download/plugins/notification/1.17/notification.hpi
-      mercurial210:
-        url: https://updates.jenkins.io/download/plugins/mercurial/2.10.1/mercurial.hpi
