@@ -1,0 +1,11 @@
+type: "plugin-catalog"
+version: "1"
+name: "my-plugin-catalog"
+displayName: "My Plugin Catalog"
+configurations:
+  - description: "Extensions to CAP"
+    includePlugins:
+      manage-permission:
+        version: 1.0.1
+        #my-custom-plugin:
+        #url: http://www.example.org/jenkins-plugins/my-custom-plugin-1.2.3.hpi
