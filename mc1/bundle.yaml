@@ -1,9 +1,9 @@
 apiVersion: "1"
 id: "mc1"
 description: "Child Bundle"
-version: "3.0"
+version: "3.1"
 parent: "parent-bundle2"
 allowCapExceptions: true
-availabilityPattern: "km1"
+availabilityPattern: "km2"
 items:
   - "items.yaml"
