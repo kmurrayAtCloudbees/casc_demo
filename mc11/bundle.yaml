@@ -2,7 +2,6 @@ apiVersion: "1"
 id: "mc11"
 description: "standalone Bundle"
 version: "1.0"
-allowCapExceptions: true
 plugins:
   - "plugins.yaml"
 catalog:
