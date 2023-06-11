@@ -1,6 +1,6 @@
 apiVersion: "1"
 id: "parent-bundle"
-description: "Parent Bundle"
+description: "bundle-global"
 version: "3.0"
 allowCapExceptions: true
 jcasc:
