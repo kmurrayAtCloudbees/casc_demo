@@ -1,7 +1,7 @@
 apiVersion: "1"
 id: "parent-bundle"
 description: "bundle-global"
-version: "3.0"
+version: "3.4"
 allowCapExceptions: true
 jcasc:
   - "jenkins.yaml"

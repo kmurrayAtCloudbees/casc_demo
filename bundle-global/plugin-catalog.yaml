@@ -7,4 +7,3 @@ configurations:
     includePlugins:
       notification:
         url: https://updates.jenkins.io/download/plugins/notification/1.17/notification.hpi
-

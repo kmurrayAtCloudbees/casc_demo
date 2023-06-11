@@ -2,7 +2,7 @@ removeStrategy:
   rbac: SYNC
   items: NONE
 items:
-  - kind: pipeline
+- kind: pipeline
   name: test01
   concurrentBuild: true
   definition:
@@ -11,11 +11,11 @@ items:
       scm:
         scmGit:
           userRemoteConfigs:
-          - userRemoteConfig:
-              url: https://github.com/kmurrayAtCloudbees/jenkinsfile-library.git
+            - userRemoteConfig:
+                url: https://github.com/kmurrayAtCloudbees/jenkinsfile-library.git
           branches:
-          - branchSpec:
-              name: '*/master'
+            - branchSpec:
+                name: '*/master'
       lightweight: true
   description: ''
   disabled: false
