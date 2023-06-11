@@ -1,7 +1,7 @@
 
 id: "parent-bundle"
 description: "Parent Bundle"
-version: "3.2"
+version: "3.3"
 apiVersion: "1"
 plugins:
   - "plugins.yaml"
