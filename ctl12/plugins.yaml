@@ -32,6 +32,7 @@ plugins:
  - id: credentials-binding
  - id: display-url-api
  - id: durable-task
+ - id: git
  - id: handy-uri-templates-2-api
  - id: infradna-backup
  - id: instance-identity
