@@ -100,7 +100,7 @@ globalCredentialsConfiguration:
     typeFilter: "none"
 security:
   anonymizeSupportBundle:
-    enabled: false
+    enabled: true
   apiToken:
     creationOfLegacyTokenEnabled: false
     tokenGenerationOnCreationEnabled: false
