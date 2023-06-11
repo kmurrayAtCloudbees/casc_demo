@@ -1,23 +1,30 @@
 removeStrategy:
   rbac: SYNC
   items: NONE
+
 items:
-- kind: pipeline
-  name: test01
-  concurrentBuild: true
-  definition:
-    cpsScmFlowDefinition:
-      scriptPath: jenkinsfile-pod-template-in-pipeline
-      scm:
-        scmGit:
-          userRemoteConfigs:
-            - userRemoteConfig:
-                url: https://github.com/kmurrayAtCloudbees/jenkinsfile-library.git
-          branches:
-            - branchSpec:
-                name: '*/master'
-      lightweight: true
-  description: ''
-  disabled: false
-  displayName: test01
-  resumeBlocked: false
+  - kind: backupAndRestore
+    name: backup
+    blockBuildWhenDownstreamBuilding: false
+    blockBuildWhenUpstreamBuilding: false
+    buildersList:
+    - backupBuilder:
+        subjects:
+        - buildRecordSubject: {}
+        - jobConfigurationSubject: {}
+        - systemConfigurationSubject:
+            omitMasterKey: false
+        format:
+          tarGzFormat: {}
+        exclusive: false
+        store:
+          localFileStore:
+            dir: /tmp/backup
+        retentionPolicy:
+          upToNRetentionPolicy:
+            n: 10
+        safeDelaySeconds: 0
+    concurrentBuild: false
+    description: ''
+    disabled: false
+    displayName: backup
