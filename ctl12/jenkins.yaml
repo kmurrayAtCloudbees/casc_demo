@@ -1,4 +1,5 @@
 jenkins:
+  clouds: operationsCenterAgentProvisioningService
   agentProtocols:
     - "Diagnostic-Ping"
     - "JNLP4-connect"
