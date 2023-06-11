@@ -37,17 +37,17 @@ advisor:
   acceptToS: true
   email: "kmurray@cloudbees.com"
   excludedComponents:
-    - "AgentsSystemConfiguration"
-    - "AgentsJVMProcessSystemMetricsContents"
-    - "GCLogs"
-    - "AgentsConfigFile"
-    - "ConfigFileComponent"
-    - "RootCAs"
-    - "SlaveLogs"
-    - "OtherConfigFilesComponent"
-    - "HeapUsageHistogram"
-    - "OtherLogs"
-    - "SlaveLaunchLogs"
+  - "AgentsSystemConfiguration"
+  - "AgentsJVMProcessSystemMetricsContents"
+  - "GCLogs"
+  - "AgentsConfigFile"
+  - "ConfigFileComponent"
+  - "RootCAs"
+  - "SlaveLogs"
+  - "OtherConfigFilesComponent"
+  - "HeapUsageHistogram"
+  - "OtherLogs"
+  - "SlaveLaunchLogs"
   nagDisabled: true
 beekeeper:
   enabled: true
