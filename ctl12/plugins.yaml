@@ -16,6 +16,7 @@ plugins:
  - id: cloudbees-casc-items-controller
  - id: cloudbees-folder
  - id: cloudbees-folders-plus
+ - id: cloudbees-jenkins-advisor
  - id: cloudbees-license
  - id: cloudbees-platform-common
  - id: cloudbees-platform-data
