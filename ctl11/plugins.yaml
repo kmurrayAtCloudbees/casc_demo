@@ -85,7 +85,7 @@ plugins:
 - id: nectar-license
 - id: nectar-rbac
 - id: node-iterator-api
- -id: notification
+- id: notification
 - id: notification-api
 - id: oauth-credentials
 - id: okhttp-api
