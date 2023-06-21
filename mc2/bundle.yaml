@@ -1,8 +1,10 @@
 id: "mc2"
-version: "3.2"
+version: "3.3"
 apiVersion: "1"
 description: "Child Bundle"
 parent: "bundle-global"
 allowCapExceptions: true
 items:
   - "items.yaml"
+rbac:
+  - "rbac.yaml"
