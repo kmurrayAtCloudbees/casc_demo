@@ -7,3 +7,181 @@ configurations:
     includePlugins:
       notification:
         url: https://updates.jenkins.io/download/plugins/notification/1.17/notification.hpi
+  - description: "Migrated from Jenkins OSS"
+    includePlugins:
+      createjobadvanced:
+        url: https://updates.jenkins.io/download/plugins/createjobadvanced/1.9.0/createjobadvanced.hpi
+      ownership:
+        url: https://updates.jenkins.io/download/plugins/ownership/0.13.0/ownership.hpi
+      JDK_Parameter_Plugin:
+        url: https://updates.jenkins.io/download/plugins/JDK_Parameter_Plugin/1.2/JDK_Parameter_Plugin.hpi
+      badge:
+        url: https://updates.jenkins.io/download/plugins/badge/1.9.1/badge.hpi
+      build-timestamp:
+        url: https://updates.jenkins.io/download/plugins/build-timestamp/1.0.3/build-timestamp.hpi
+      job-dsl:
+        url: https://updates.jenkins.io/download/plugins/job-dsl/1.84/job-dsl.hpi
+      extended-read-permission:
+        url: https://updates.jenkins.io/download/plugins/extended-read-permission/53.v6499940139e5/extended-read-permission.hpi
+      42crunch-security-audit:
+        url: https://updates.jenkins.io/download/plugins/42crunch-security-audit/5.5/42crunch-security-audit.hpi
+      authorize-project:
+        url: https://updates.jenkins.io/download/plugins/authorize-project/1.7.0/authorize-project.hpi
+      bitbucket-push-and-pull-request:
+        url: https://updates.jenkins.io/download/plugins/bitbucket-push-and-pull-request/2.8.3/bitbucket-push-and-pull-request.hpi
+      blackduck-detect:
+        url: https://updates.jenkins.io/download/plugins/blackduck-detect/8.0.1/blackduck-detect.hpi
+      blueocean-autofavorite:
+        url: https://updates.jenkins.io/download/plugins/blueocean-autofavorite/1.2.5/blueocean-autofavorite.hpi
+      blueocean-jira:
+        url: https://updates.jenkins.io/download/plugins/blueocean-jira/1.27.4/blueocean-jira.hpi
+      blueocean-pipeline-api-impl:
+        url: https://updates.jenkins.io/download/plugins/blueocean-pipeline-api-impl/1.27.4/blueocean-pipeline-api-impl.hpi
+      build-environment:
+        url: https://updates.jenkins.io/download/plugins/build-environment/1.7/build-environment.hpi
+      build-monitor-plugin:
+        url: https://updates.jenkins.io/download/plugins/build-monitor-plugin/1.14-717.v3efcdffe8d58/build-monitor-plugin.hpi
+      build-name-setter:
+        url: https://updates.jenkins.io/download/plugins/build-name-setter/2.2.1/build-name-setter.hpi
+      build-timeout:
+        url: https://updates.jenkins.io/download/plugins/build-timeout/1.31/build-timeout.hpi
+      ansible:
+        url: https://updates.jenkins.io/download/plugins/ansible/240.vc26740a_625c0/ansible.hpi
+      build-user-vars-plugin:
+        url: https://updates.jenkins.io/download/plugins/build-user-vars-plugin/1.9/build-user-vars-plugin.hpi
+      build-with-parameters:
+        url: https://updates.jenkins.io/download/plugins/build-with-parameters/76.v9382db_f78962/build-with-parameters.hpi
+      cloudbees-bitbucket-branch-source:
+        url: https://updates.jenkins.io/download/plugins/cloudbees-bitbucket-branch-source/809.vc1d904b_30426/cloudbees-bitbucket-branch-source.hpi
+      buildtriggerbadge:
+        url: https://updates.jenkins.io/download/plugins/buildtriggerbadge/251.vdf6ef853f3f5/buildtriggerbadge.hpi
+      cobertura:
+        url: https://updates.jenkins.io/download/plugins/cobertura/1.17/cobertura.hpi
+      code-coverage-api:
+        url: https://updates.jenkins.io/download/plugins/code-coverage-api/4.7.0/code-coverage-api.hpi
+      embeddable-build-status:
+        url: https://updates.jenkins.io/download/plugins/embeddable-build-status/385.vc95f94e91fb_3/embeddable-build-status.hpi
+      envinject:
+        url: https://updates.jenkins.io/download/plugins/envinject/2.901.v0038b_6471582/envinject.hpi
+      envinject-api:
+        url: https://updates.jenkins.io/download/plugins/envinject-api/1.199.v3ce31253ed13/envinject-api.hpi
+      extensible-choice-parameter:
+        url: https://updates.jenkins.io/download/plugins/extensible-choice-parameter/1.8.0/extensible-choice-parameter.hpi
+      external-monitor-job:
+        url: https://updates.jenkins.io/download/plugins/external-monitor-job/206.v9a_94ff0b_4a_10/external-monitor-job.hpi
+      extra-columns:
+        url: https://updates.jenkins.io/download/plugins/extra-columns/1.25/extra-columns.hpi
+      fortify:
+        url: https://updates.jenkins.io/download/plugins/fortify/22.1.38/fortify.hpi
+      generic-webhook-trigger:
+        url: https://updates.jenkins.io/download/plugins/generic-webhook-trigger/1.86.3/generic-webhook-trigger.hpi
+      git-parameter:
+        url: https://updates.jenkins.io/download/plugins/git-parameter/0.9.18/git-parameter.hpi
+      gitlab-api:
+        url: https://updates.jenkins.io/download/plugins/gitlab-api/5.3.0-91.v1f9a_fda_d654f/gitlab-api.hpi
+      gravatar:
+        url: https://updates.jenkins.io/download/plugins/gravatar/2.2/gravatar.hpi
+      greenballs:
+        url: https://updates.jenkins.io/download/plugins/greenballs/1.15.1/greenballs.hpi
+      groovy:
+        url: https://updates.jenkins.io/download/plugins/groovy/453.vcdb_a_c5c99890/groovy.hpi
+      groovy-postbuild:
+        url: https://updates.jenkins.io/download/plugins/groovy-postbuild/2.5/groovy-postbuild.hpi
+      h2-api:
+        url: https://updates.jenkins.io/download/plugins/h2-api/11.1.4.199-12.v9f4244395f7a_/h2-api.hpi
+      hidden-parameter:
+        url: https://updates.jenkins.io/download/plugins/hidden-parameter/138.v2a_c30d04e566/hidden-parameter.hpi
+      http_request:
+        url: https://updates.jenkins.io/download/plugins/http_request/1.17/http_request.hpi
+      influxdb:
+        url: https://updates.jenkins.io/download/plugins/influxdb/3.5/influxdb.hpi
+      ivy:
+        url: https://updates.jenkins.io/download/plugins/ivy/2.5/ivy.hpi
+      jersey2-api:
+        url: https://updates.jenkins.io/download/plugins/jersey2-api/2.40-1/jersey2-api.hpi
+      jira:
+        url: https://updates.jenkins.io/download/plugins/jira/3.10/jira.hpi
+      job-import-plugin:
+        url: https://updates.jenkins.io/download/plugins/job-import-plugin/3.6/job-import-plugin.hpi
+      jquery:
+        url: https://updates.jenkins.io/download/plugins/jquery/1.12.4-1/jquery.hpi
+      lockable-resources:
+        url: https://updates.jenkins.io/download/plugins/lockable-resources/1172.v4b_8fc8eed570/lockable-resources.hpi
+      log-parser:
+        url: https://updates.jenkins.io/download/plugins/log-parser/2.3.0/log-parser.hpi
+      mask-passwords:
+        url: https://updates.jenkins.io/download/plugins/mask-passwords/150.vf80d33113e80/mask-passwords.hpi
+      modernstatus:
+        url: https://updates.jenkins.io/download/plugins/modernstatus/1.3/modernstatus.hpi
+      next-build-number:
+        url: https://updates.jenkins.io/download/plugins/next-build-number/1.8/next-build-number.hpi
+      nodelabelparameter:
+        url: https://updates.jenkins.io/download/plugins/nodelabelparameter/1.12.0/nodelabelparameter.hpi
+      openJDK-native-plugin:
+        url: https://updates.jenkins.io/download/plugins/openJDK-native-plugin/1.7/openJDK-native-plugin.hpi
+      pam-auth:
+        url: https://updates.jenkins.io/download/plugins/pam-auth/1.10/pam-auth.hpi
+      parameter-separator:
+        url: https://updates.jenkins.io/download/plugins/parameter-separator/87.va_1816d0b_39d1/parameter-separator.hpi
+      Parameterized-Remote-Trigger:
+        url: https://updates.jenkins.io/download/plugins/Parameterized-Remote-Trigger/3.1.6.3/Parameterized-Remote-Trigger.hpi
+      parameterized-trigger:
+        url: https://updates.jenkins.io/download/plugins/parameterized-trigger/2.45/parameterized-trigger.hpi
+      pipeline-aggregator-view:
+        url: https://updates.jenkins.io/download/plugins/pipeline-aggregator-view/1.15/pipeline-aggregator-view.hpi
+      pipeline-aws:
+        url: https://updates.jenkins.io/download/plugins/pipeline-aws/1.43/pipeline-aws.hpi
+      pipeline-cps-http:
+        url: https://updates.jenkins.io/download/plugins/pipeline-cps-http/0.3.1/pipeline-cps-http.hpi
+      pipeline-maven:
+        url: https://updates.jenkins.io/download/plugins/pipeline-maven/1298.v43b_82f220a_e9/pipeline-maven.hpi
+      pipeline-multibranch-defaults:
+        url: https://updates.jenkins.io/download/plugins/pipeline-multibranch-defaults/2.1/pipeline-multibranch-defaults.hpi
+      pipeline-stage-view:
+        url: https://updates.jenkins.io/download/plugins/pipeline-stage-view/2.33/pipeline-stage-view.hpi
+      pipeline-utility-steps:
+        url: https://updates.jenkins.io/download/plugins/pipeline-utility-steps/2.15.4/pipeline-utility-steps.hpi
+      postbuild-task:
+        url: https://updates.jenkins.io/download/plugins/postbuild-task/1.9/postbuild-task.hpi
+      postbuildscript:
+        url: https://updates.jenkins.io/download/plugins/postbuildscript/3.2.0-460.va_fda_0fa_26720/postbuildscript.hpi
+      powershell:
+        url: https://updates.jenkins.io/download/plugins/powershell/2.0/powershell.hpi
+      python:
+        url: https://updates.jenkins.io/download/plugins/python/1.3/python.hpi
+      rebuild:
+        url: https://updates.jenkins.io/download/plugins/rebuild/320.v5a_0933a_e7d61/rebuild.hpi
+      resource-disposer:
+        url: https://updates.jenkins.io/download/plugins/resource-disposer/0.22/resource-disposer.hpi
+      robot:
+        url: https://updates.jenkins.io/download/plugins/robot/3.3.0/robot.hpi
+      run-condition:
+        url: https://updates.jenkins.io/download/plugins/run-condition/1.5/run-condition.hpi
+      show-build-parameters:
+        url: https://updates.jenkins.io/download/plugins/show-build-parameters/1.0/show-build-parameters.hpi
+      sidebar-link:
+        url: https://updates.jenkins.io/download/plugins/sidebar-link/2.2.4/sidebar-link.hpi
+      skip-certificate-check:
+        url: https://updates.jenkins.io/download/plugins/skip-certificate-check/1.1/skip-certificate-check.hpi
+      slack:
+        url: https://updates.jenkins.io/download/plugins/slack/664.vc9a_90f8b_c24a_/slack.hpi
+      sonar:
+        url: https://updates.jenkins.io/download/plugins/sonar/2.15/sonar.hpi
+      splunk-devops:
+        url: https://updates.jenkins.io/download/plugins/splunk-devops/1.10.1/splunk-devops.hpi
+      ssh-steps:
+        url: https://updates.jenkins.io/download/plugins/ssh-steps/2.0.65.vd26b_5b_9b_de4d/ssh-steps.hpi
+      subversion:
+        url: https://updates.jenkins.io/download/plugins/notification/1.17/notification.hpi
+      swarm:
+        url: https://updates.jenkins.io/download/plugins/swarm/3.40/swarm.hpi
+      sysdig-secure:
+        url: https://updates.jenkins.io/download/plugins/sysdig-secure/2.3.0/sysdig-secure.hpi
+      uno-choice:
+        url: https://updates.jenkins.io/download/plugins/uno-choice/2.6.5/uno-choice.hpi
+      winrm-client:
+        url: https://updates.jenkins.io/download/plugins/winrm-client/1.0/winrm-client.hpi
+      workflow-cps:
+        url: https://updates.jenkins.io/download/plugins/workflow-cps/3697.vb_470e454c232/workflow-cps.hpi
+      ws-cleanup:
+        url: https://updates.jenkins.io/download/plugins/ws-cleanup/0.45/ws-cleanup.hpi
