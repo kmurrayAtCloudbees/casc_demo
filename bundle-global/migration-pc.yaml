@@ -23,7 +23,7 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/42crunch-security-audit/5.5/42crunch-security-audit.hpi
       authorize-project:
         url: https://updates.jenkins.io/download/plugins/authorize-project/1.7.0/authorize-project.hpi
-       bitbucket-push-and-pull-request:
+      bitbucket-push-and-pull-request:
         url: https://updates.jenkins.io/download/plugins/bitbucket-push-and-pull-request/2.8.3/bitbucket-push-and-pull-request.hpi
       blackduck-detect:
         url: https://updates.jenkins.io/download/plugins/blackduck-detect/8.0.1/blackduck-detect.hpi
