@@ -1,3 +1,4 @@
+plugins:
 - id: ansible
 - id: ansicolor
 - id: ant
