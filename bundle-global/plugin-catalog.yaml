@@ -108,7 +108,7 @@ configurations:
       jquery:
         url: https://updates.jenkins.io/download/plugins/jquery/1.12.4-1/jquery.hpi
       lockable-resources:
-        url: https://updates.jenkins.io/download/plugins/lockable-resources/1172.v4b_8fc8eed570/lockable-resources.hpi
+        url: https://updates.jenkins.io/download/plugins/lockable-resources/1123.v4002ee23c671/lockable-resources.hpi
       log-parser:
         url: https://updates.jenkins.io/download/plugins/log-parser/2.3.0/log-parser.hpi
       mask-passwords:
