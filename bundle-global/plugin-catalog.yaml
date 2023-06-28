@@ -18,7 +18,7 @@ configurations:
       build-timestamp:
         url: https://updates.jenkins.io/download/plugins/build-timestamp/1.0.3/build-timestamp.hpi
       job-dsl:
-        url: https://updates.jenkins.io/download/plugins/job-dsl/1.84/job-dsl.hpi
+        url: https://updates.jenkins.io/download/plugins/job-dsl/1.83/job-dsl.hpi
       extended-read-permission:
         url: https://updates.jenkins.io/download/plugins/extended-read-permission/53.v6499940139e5/extended-read-permission.hpi
       42crunch-security-audit:
