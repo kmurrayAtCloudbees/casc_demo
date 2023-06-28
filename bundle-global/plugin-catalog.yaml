@@ -82,7 +82,7 @@ configurations:
       git-parameter:
         url: https://updates.jenkins.io/download/plugins/git-parameter/0.9.18/git-parameter.hpi
       gitlab-api:
-        url: https://updates.jenkins.io/download/plugins/gitlab-api/5.3.0-91.v1f9a_fda_d654f/gitlab-api.hpi
+        url: https://updates.jenkins.io/download/plugins/gitlab-api/5.2.0-86.v1ed41a_9cf486/gitlab-api.hpi
       gravatar:
         url: https://updates.jenkins.io/download/plugins/gravatar/2.2/gravatar.hpi
       greenballs:
