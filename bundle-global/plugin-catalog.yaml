@@ -42,7 +42,7 @@ configurations:
       build-timeout:
         url: https://updates.jenkins.io/download/plugins/build-timeout/1.31/build-timeout.hpi
       ansible:
-        url: https://updates.jenkins.io/download/plugins/ansible/217.v1696cee03265/ansible.hpi
+        url: https://updates.jenkins.io/download/plugins/ansible/174.vfd5323d2b_9d8/ansible.hpi
       build-user-vars-plugin:
         url: https://updates.jenkins.io/download/plugins/build-user-vars-plugin/1.9/build-user-vars-plugin.hpi
       build-with-parameters:
