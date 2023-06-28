@@ -5,6 +5,8 @@ displayName: "My Plugin Catalog"
 configurations:
   - description: "Extensions to CAP"
     includePlugins:
+      ansicolor:
+        url: https://updates.jenkins.io/download/plugins/ansicolor/1.0.2/ansicolor.hpi
       notification:
         url: https://updates.jenkins.io/download/plugins/notification/1.17/notification.hpi
       createjobadvanced:
