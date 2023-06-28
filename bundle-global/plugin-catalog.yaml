@@ -96,7 +96,7 @@ configurations:
       influxdb:
         url: https://updates.jenkins.io/download/plugins/influxdb/3.5/influxdb.hpi
       ivy:
-        url: https://updates.jenkins.io/download/plugins/ivy/2.5/ivy.hpi
+        url: https://updates.jenkins.io/download/plugins/ivy/2.2/ivy.hpi
       jersey2-api:
         url: https://updates.jenkins.io/download/plugins/jersey2-api/2.40-1/jersey2-api.hpi
       jfrog:
