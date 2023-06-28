@@ -33,8 +33,6 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/blueocean-autofavorite/1.2.5/blueocean-autofavorite.hpi
       blueocean-jira:
         url: https://updates.jenkins.io/download/plugins/blueocean-jira/1.27.4/blueocean-jira.hpi
-      blueocean-pipeline-api-impl:
-        url: https://updates.jenkins.io/download/plugins/blueocean-pipeline-api-impl/1.27.4/blueocean-pipeline-api-impl.hpi
       build-environment:
         url: https://updates.jenkins.io/download/plugins/build-environment/1.7/build-environment.hpi
       build-monitor-plugin:
@@ -49,8 +47,6 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/build-user-vars-plugin/1.9/build-user-vars-plugin.hpi
       build-with-parameters:
         url: https://updates.jenkins.io/download/plugins/build-with-parameters/76.v9382db_f78962/build-with-parameters.hpi
-      cloudbees-bitbucket-branch-source:
-        url: https://updates.jenkins.io/download/plugins/cloudbees-bitbucket-branch-source/809.vc1d904b_30426/cloudbees-bitbucket-branch-source.hpi
       buildtriggerbadge:
         url: https://updates.jenkins.io/download/plugins/buildtriggerbadge/251.vdf6ef853f3f5/buildtriggerbadge.hpi
       cobertura:
@@ -106,7 +102,7 @@ configurations:
       jfrog:
         url: https://updates.jenkins.io/download/plugins/jfrog/1.4.0/jfrog.hpi
       jira:
-        url: https://updates.jenkins.io/download/plugins/jira/3.10/jira.hpi
+        url: https://updates.jenkins.io/download/plugins/jira/3.7.1/jira.hpi
       job-import-plugin:
         url: https://updates.jenkins.io/download/plugins/job-import-plugin/3.6/job-import-plugin.hpi
       jquery:
@@ -187,7 +183,5 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/uno-choice/2.6.5/uno-choice.hpi
       winrm-client:
         url: https://updates.jenkins.io/download/plugins/winrm-client/1.0/winrm-client.hpi
-      workflow-cps:
-        url: https://updates.jenkins.io/download/plugins/workflow-cps/3697.vb_470e454c232/workflow-cps.hpi
       ws-cleanup:
         url: https://updates.jenkins.io/download/plugins/ws-cleanup/0.45/ws-cleanup.hpi
