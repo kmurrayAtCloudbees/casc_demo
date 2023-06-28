@@ -52,7 +52,7 @@ configurations:
       cobertura:
         url: https://updates.jenkins.io/download/plugins/cobertura/1.17/cobertura.hpi
       code-coverage-api:
-        url: https://updates.jenkins.io/download/plugins/code-coverage-api/3.0.0/code-coverage-api.hpi
+        url: https://updates.jenkins.io/download/plugins/code-coverage-api/3.5.0/code-coverage-api.hpi
       emailext-template:
         url: https://updates.jenkins.io/download/plugins/emailext-template/1.5/emailext-template.hpi
       embeddable-build-status:
