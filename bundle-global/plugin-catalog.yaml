@@ -113,6 +113,8 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/log-parser/2.3.0/log-parser.hpi
       mask-passwords:
         url: https://updates.jenkins.io/download/plugins/mask-passwords/150.vf80d33113e80/mask-passwords.hpi
+      mercurial:
+        url: https://updates.jenkins.io/download/plugins/mercurial/2.16.2/mercurial.hpi
       modernstatus:
         url: https://updates.jenkins.io/download/plugins/modernstatus/1.3/modernstatus.hpi
       next-build-number:
