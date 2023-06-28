@@ -36,7 +36,7 @@ configurations:
       build-environment:
         url: https://updates.jenkins.io/download/plugins/build-environment/1.7/build-environment.hpi
       build-monitor-plugin:
-        url: https://updates.jenkins.io/download/plugins/build-monitor-plugin/1.14-717.v3efcdffe8d58/build-monitor-plugin.hpi
+        url: https://updates.jenkins.io/download/plugins/build-monitor-plugin/1.14-651.v429b_16b_db_60e/build-monitor-plugin.hpi
       build-name-setter:
         url: https://updates.jenkins.io/download/plugins/build-name-setter/2.2.1/build-name-setter.hpi
       build-timeout:
@@ -56,7 +56,7 @@ configurations:
       emailext-template:
         url: https://updates.jenkins.io/download/plugins/emailext-template/1.5/emailext-template.hpi
       embeddable-build-status:
-        url: https://updates.jenkins.io/download/plugins/embeddable-build-status/385.vc95f94e91fb_3/embeddable-build-status.hpi
+        url: https://updates.jenkins.io/download/plugins/embeddable-build-status/304.vdcf48d6b_d2eb/embeddable-build-status.hpi
       envinject:
         url: https://updates.jenkins.io/download/plugins/envinject/2.901.v0038b_6471582/envinject.hpi
       envinject-api:
@@ -68,7 +68,7 @@ configurations:
       extra-columns:
         url: https://updates.jenkins.io/download/plugins/extra-columns/1.25/extra-columns.hpi
       docker-java-api:
-        url: https://updates.jenkins.io/download/plugins/docker-java-api/3.3.1-79.v20b_53427e041/docker-java-api.hpi
+        url: https://updates.jenkins.io/download/plugins/docker-java-api/3.2.13-35.vb82bff5c8bd0/docker-java-api.hpi
       docker-plugin:
         url: https://updates.jenkins.io/download/plugins/docker-plugin/1.3.0/docker-plugin.hpi
       fortify:
@@ -98,7 +98,7 @@ configurations:
       ivy:
         url: https://updates.jenkins.io/download/plugins/ivy/2.2/ivy.hpi
       jersey2-api:
-        url: https://updates.jenkins.io/download/plugins/jersey2-api/2.40-1/jersey2-api.hpi
+        url: https://updates.jenkins.io/download/plugins/jersey2-api/2.39.1-1/jersey2-api.hpi
       jfrog:
         url: https://updates.jenkins.io/download/plugins/jfrog/1.4.0/jfrog.hpi
       jira:
@@ -120,7 +120,7 @@ configurations:
       next-build-number:
         url: https://updates.jenkins.io/download/plugins/next-build-number/1.8/next-build-number.hpi
       nodelabelparameter:
-        url: https://updates.jenkins.io/download/plugins/nodelabelparameter/1.12.0/nodelabelparameter.hpi
+        url: https://updates.jenkins.io/download/plugins/nodelabelparameter/1.11.0/nodelabelparameter.hpi
       openJDK-native-plugin:
         url: https://updates.jenkins.io/download/plugins/openJDK-native-plugin/1.7/openJDK-native-plugin.hpi
       pam-auth:
