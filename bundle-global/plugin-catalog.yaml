@@ -7,8 +7,6 @@ configurations:
     includePlugins:
       notification:
         url: https://updates.jenkins.io/download/plugins/notification/1.17/notification.hpi
-  - description: "Migrated from Jenkins OSS"
-    includePlugins:
       createjobadvanced:
         url: https://updates.jenkins.io/download/plugins/createjobadvanced/1.9.0/createjobadvanced.hpi
       ownership:
@@ -59,6 +57,8 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/cobertura/1.17/cobertura.hpi
       code-coverage-api:
         url: https://updates.jenkins.io/download/plugins/code-coverage-api/4.7.0/code-coverage-api.hpi
+      emailext-template:
+        url: https://updates.jenkins.io/download/plugins/emailext-template/1.5/emailext-template.hpi
       embeddable-build-status:
         url: https://updates.jenkins.io/download/plugins/embeddable-build-status/385.vc95f94e91fb_3/embeddable-build-status.hpi
       envinject:
@@ -71,6 +71,10 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/external-monitor-job/206.v9a_94ff0b_4a_10/external-monitor-job.hpi
       extra-columns:
         url: https://updates.jenkins.io/download/plugins/extra-columns/1.25/extra-columns.hpi
+      docker-java-api:
+        url: https://updates.jenkins.io/download/plugins/docker-java-api/3.3.1-79.v20b_53427e041/docker-java-api.hpi
+      docker-plugin:
+        url: https://updates.jenkins.io/download/plugins/docker-plugin/1.4/docker-plugin.hpi
       fortify:
         url: https://updates.jenkins.io/download/plugins/fortify/22.1.38/fortify.hpi
       generic-webhook-trigger:
