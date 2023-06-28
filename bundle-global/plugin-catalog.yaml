@@ -103,6 +103,8 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/ivy/2.5/ivy.hpi
       jersey2-api:
         url: https://updates.jenkins.io/download/plugins/jersey2-api/2.40-1/jersey2-api.hpi
+      jfrog:
+        url: https://updates.jenkins.io/download/plugins/jfrog/1.4.0/jfrog.hpi
       jira:
         url: https://updates.jenkins.io/download/plugins/jira/3.10/jira.hpi
       job-import-plugin:
@@ -176,7 +178,7 @@ configurations:
       ssh-steps:
         url: https://updates.jenkins.io/download/plugins/ssh-steps/2.0.65.vd26b_5b_9b_de4d/ssh-steps.hpi
       subversion:
-        url: https://updates.jenkins.io/download/plugins/notification/1.17/notification.hpi
+        url: https://updates.jenkins.io/download/plugins/subversion/2.17.2/subversion.hpi
       swarm:
         url: https://updates.jenkins.io/download/plugins/swarm/3.40/swarm.hpi
       sysdig-secure:
