@@ -92,7 +92,7 @@ configurations:
       hidden-parameter:
         url: https://updates.jenkins.io/download/plugins/hidden-parameter/138.v2a_c30d04e566/hidden-parameter.hpi
       http_request:
-        url: https://updates.jenkins.io/download/plugins/http_request/1.17/http_request.hpi
+        url: https://updates.jenkins.io/download/plugins/http_request/1.15/http_request.hpi
       influxdb:
         url: https://updates.jenkins.io/download/plugins/influxdb/3.5/influxdb.hpi
       ivy:
@@ -133,18 +133,14 @@ configurations:
         url: https://updates.jenkins.io/download/plugins/parameterized-trigger/2.45/parameterized-trigger.hpi
       pipeline-aggregator-view:
         url: https://updates.jenkins.io/download/plugins/pipeline-aggregator-view/1.15/pipeline-aggregator-view.hpi
-      pipeline-aws:
-        url: https://updates.jenkins.io/download/plugins/pipeline-aws/1.43/pipeline-aws.hpi
       pipeline-cps-http:
         url: https://updates.jenkins.io/download/plugins/pipeline-cps-http/0.3.1/pipeline-cps-http.hpi
       pipeline-maven:
         url: https://updates.jenkins.io/download/plugins/pipeline-maven/1298.v43b_82f220a_e9/pipeline-maven.hpi
       pipeline-multibranch-defaults:
         url: https://updates.jenkins.io/download/plugins/pipeline-multibranch-defaults/2.1/pipeline-multibranch-defaults.hpi
-      pipeline-stage-view:
-        url: https://updates.jenkins.io/download/plugins/pipeline-stage-view/2.33/pipeline-stage-view.hpi
       pipeline-utility-steps:
-        url: https://updates.jenkins.io/download/plugins/pipeline-utility-steps/2.15.4/pipeline-utility-steps.hpi
+        url: https://updates.jenkins.io/download/plugins/pipeline-utility-steps/2.15.0/pipeline-utility-steps.hpi
       postbuild-task:
         url: https://updates.jenkins.io/download/plugins/postbuild-task/1.9/postbuild-task.hpi
       postbuildscript:
