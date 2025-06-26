@@ -31,6 +31,8 @@ configurations:
         version: "1.4"
       cmakebuilder:
         version: "4.1.1"
+      conditional-buildstep:
+        version: "1.4.3"
       description-setter:
         version: "239.vd0a_6b_785f92d"
       downstream-build-cache:
@@ -91,6 +93,8 @@ configurations:
         version: "332.va_1ee476d8f6d"
       resource-disposer:
         version: "0.24"
+      run-condition:
+        version: "1.5"
       sidebar-link:
         version: "2.4.1"
       simple-theme-plugin:
