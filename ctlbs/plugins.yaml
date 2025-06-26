@@ -1,7 +1,8 @@
-plugins:
+  - id: ant
   - id: artifactory-artifact-manager
   - id: artifactory-client-api
   - id: atlassian-bitbucket-server-integration
+  - id: aws-global-configuration
   - id: badge
   - id: bitbucket
   - id: block-build-final-project
@@ -10,14 +11,86 @@ plugins:
   - id: build-timeout
   - id: buildtriggerbadge
   - id: built-on-column
+  - id: checks-api
+  - id: cloudbees-bitbucket-branch-source
+  - id: cloudbees-casc-client
+  - id: cloudbees-casc-items-controller
+  - id: cloudbees-github-reporting
+  - id: cloudbees-groovy-view
+  - id: cloudbees-jenkins-advisor
+  - id: cloudbees-monitoring
+  - id: cloudbees-nodes-plus
+  - id: cloudbees-pipeline-explorer
+  - id: cloudbees-replication
+  - id: cloudbees-ssh-slaves
+  - id: cloudbees-support
+  - id: cloudbees-view-creation-filter
+  - id: cloudbees-workflow-template
   - id: cmakebuilder
   - id: conditional-buildstep
+  - id: config-file-provider
+  - id: copyartifact
+  - id: data-tables-api
+  - id: declarative-pipeline-migration-assistant
   - id: description-setter
   - id: downstream-build-cache
   - id: downstream-buildview
+  - id: echarts-api
+  - id: email-ext
   - id: envinject
   - id: envinject-api
   - id: extended-choice-parameter
   - id: generic-webhook-trigger
+  - id: github-branch-source
+  - id: gradle
   - id: groovy-postbuild
   - id: hidden-parameter
+  - id: htmlpublisher
+  - id: infradna-backup
+  - id: javadoc
+  - id: jenkins-multijob-plugin
+  - id: jersey2-api
+  - id: jira
+  - id: job-import-plugin
+  - id: jsch
+  - id: klocwork
+  - id: kube-agent-management
+  - id: ldap
+  - id: lockable-resources
+  - id: log-parser
+  - id: logstash
+  - id: matrix-auth
+  - id: maven-plugin
+  - id: mercurial
+  - id: minio
+  - id: minio-storage
+  - id: monitoring
+  - id: msbuild
+  - id: nodelabelparameter
+  - id: operations-center-cloud
+  - id: operations-center-notification
+  - id: ownership
+  - id: parameterized-trigger
+  - id: periodicbackup
+  - id: pipeline-event-step
+  - id: pipeline-graph-analysis
+  - id: postbuild-task
+  - id: postbuildscript
+  - id: rebuild
+  - id: resource-disposer
+  - id: run-condition
+  - id: sidebar-link
+  - id: simple-theme-plugin
+  - id: ssh-agent
+  - id: ssh-slaves
+  - id: sshd
+  - id: stashNotifier
+  - id: throttle-concurrents
+  - id: timestamper
+  - id: uno-choice
+  - id: vsphere-cloud
+  - id: workflow-aggregator
+  - id: workflow-cps-checkpoint
+  - id: ws-cleanup
+  - id: xvfb
+  - id: yet-another-build-visualizer
