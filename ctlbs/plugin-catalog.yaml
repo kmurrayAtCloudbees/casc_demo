@@ -49,3 +49,11 @@ configurations:
       version: 228.vcdb_cf7265066
     hidden-parameter:
       version: 366.v7024b_32e399e
+    bitbucket:
+      version: 254.v9d8ec33a_7a_42
+    conditional-buildstep:
+     version: 1.4.3
+    mercurial:
+      version: 1260.vdfb_723cdcc81
+    run-condition:
+      version: '1.7'
