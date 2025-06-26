@@ -1,205 +1,23 @@
 plugins:
-- id: ant
-- id: antisamy-markup-formatter
-- id: apache-httpcomponents-client-4-api
-- id: artifactory-artifact-manager
-- id: artifactory-client-api
-- id: asm-api
-- id: atlassian-bitbucket-server-integration
-- id: authentication-tokens
-- id: aws-credentials
-- id: aws-global-configuration
-- id: aws-java-sdk-ec2
-- id: aws-java-sdk-minimal
-- id: badge
-- id: bitbucket
-- id: block-build-final-project
-- id: bootstrap5-api
-- id: bouncycastle-api
-- id: branch-api
-- id: build-blocker-plugin
-- id: build-name-setter
-- id: build-timeout
-- id: buildtriggerbadge
-- id: built-on-column
-- id: caffeine-api
-- id: checks-api
-- id: cloudbees-administrative-monitors
-- id: cloudbees-analytics
-- id: cloudbees-assurance
-- id: cloudbees-bitbucket-branch-source
-- id: cloudbees-casc-client
-- id: cloudbees-casc-items-api
-- id: cloudbees-casc-items-commons
-- id: cloudbees-casc-items-controller
-- id: cloudbees-casc-shared
-- id: cloudbees-folder
-- id: cloudbees-folders-plus
-- id: cloudbees-github-reporting
-- id: cloudbees-groovy-view
-- id: cloudbees-jenkins-advisor
-- id: cloudbees-license
-- id: cloudbees-monitoring
-- id: cloudbees-nodes-plus
-- id: cloudbees-pipeline-explorer
-- id: cloudbees-platform-common
-- id: cloudbees-platform-data
-- id: cloudbees-plugin-usage
-- id: cloudbees-replication
-- id: cloudbees-ssh-slaves
-- id: cloudbees-support
-- id: cloudbees-template
-- id: cloudbees-uc-data-api
-- id: cloudbees-unified-ui
-- id: cloudbees-view-creation-filter
-- id: cloudbees-workflow-template
-- id: cmakebuilder
-- id: command-launcher
-- id: commons-lang3-api
-- id: commons-text-api
-- id: conditional-buildstep
-- id: config-file-provider
-- id: configuration-as-code
-- id: copyartifact
-- id: credentials
-- id: credentials-binding
-- id: data-tables-api
-- id: declarative-pipeline-migration-assistant
-- id: declarative-pipeline-migration-assistant-api
-- id: description-setter
-- id: display-url-api
-- id: downstream-build-cache
-- id: downstream-buildview
-- id: durable-task
-- id: echarts-api
-- id: eddsa-api
-- id: email-ext
-- id: envinject
-- id: envinject-api
-- id: extended-choice-parameter
-- id: font-awesome-api
-- id: generic-webhook-trigger
-- id: git
-- id: git-client
-- id: github
-- id: github-api
-- id: github-branch-source
-- id: gradle
-- id: groovy-postbuild
-- id: gson-api
-- id: handy-uri-templates-2-api
-- id: hidden-parameter
-- id: htmlpublisher
-- id: infradna-backup
-- id: instance-identity
-- id: ionicons-api
-- id: jackson2-api
-- id: jakarta-activation-api
-- id: jakarta-mail-api
-- id: javadoc
-- id: javax-activation-api
-- id: javax-mail-api
-- id: jaxb
-- id: jdk-tool
-- id: jenkins-multijob-plugin
-- id: jersey2-api
-- id: jira
-- id: jjwt-api
-- id: job-import-plugin
-- id: joda-time-api
-- id: jquery3-api
-- id: jsch
-- id: json-api
-- id: json-path-api
-- id: junit
-- id: klocwork
-- id: kube-agent-management
-- id: kubernetes
-- id: kubernetes-client-api
-- id: kubernetes-credentials
-- id: ldap
-- id: lockable-resources
-- id: log-parser
-- id: logstash
-- id: mailer
-- id: mapdb-api
-- id: matrix-auth
-- id: matrix-project
-- id: maven-plugin
-- id: mercurial
-- id: metrics
-- id: mina-sshd-api-common
-- id: mina-sshd-api-core
-- id: mina-sshd-api-scp
-- id: mina-sshd-api-sftp
-- id: minio
-- id: minio-storage
-- id: monitoring
-- id: msbuild
-- id: nectar-license
-- id: nectar-rbac
-- id: node-iterator-api
-- id: nodelabelparameter
-- id: notification-api
-- id: okhttp-api
-- id: operations-center-agent
-- id: operations-center-client
-- id: operations-center-cloud
-- id: operations-center-context
-- id: operations-center-notification
-- id: ownership
-- id: parameterized-trigger
-- id: periodicbackup
-- id: pipeline-build-step
-- id: pipeline-event-step
-- id: pipeline-graph-analysis
-- id: pipeline-groovy-lib
-- id: pipeline-input-step
-- id: pipeline-milestone-step
-- id: pipeline-model-api
-- id: pipeline-model-definition
-- id: pipeline-model-extensions
-- id: pipeline-stage-step
-- id: pipeline-stage-tags-metadata
-- id: plain-credentials
-- id: plugin-util-api
-- id: postbuild-task
-- id: postbuildscript
-- id: prism-api
-- id: rebuild
-- id: resource-disposer
-- id: run-condition
-- id: scm-api
-- id: script-security
-- id: sidebar-link
-- id: simple-theme-plugin
-- id: snakeyaml-api
-- id: ssh-agent
-- id: ssh-credentials
-- id: ssh-slaves
-- id: sshd
-- id: stashNotifier
-- id: structs
-- id: support-core
-- id: throttle-concurrents
-- id: timestamper
-- id: token-macro
-- id: trilead-api
-- id: uno-choice
-- id: user-activity-monitoring
-- id: variant
-- id: vsphere-cloud
-- id: workflow-aggregator
-- id: workflow-api
-- id: workflow-basic-steps
-- id: workflow-cps
-- id: workflow-cps-checkpoint
-- id: workflow-durable-task-step
-- id: workflow-job
-- id: workflow-multibranch
-- id: workflow-scm-step
-- id: workflow-step-api
-- id: workflow-support
-- id: ws-cleanup
-- id: xvfb
-- id: yet-another-build-visualizer
+  - id: artifactory-artifact-manager
+  - id: artifactory-client-api
+  - id: atlassian-bitbucket-server-integration
+  - id: badge
+  - id: bitbucket
+  - id: block-build-final-project
+  - id: build-blocker-plugin
+  - id: build-name-setter
+  - id: build-timeout
+  - id: buildtriggerbadge
+  - id: built-on-column
+  - id: cmakebuilder
+  - id: conditional-buildstep
+  - id: description-setter
+  - id: downstream-build-cache
+  - id: downstream-buildview
+  - id: envinject
+  - id: envinject-api
+  - id: extended-choice-parameter
+  - id: generic-webhook-trigger
+  - id: groovy-postbuild
+  - id: hidden-parameter
